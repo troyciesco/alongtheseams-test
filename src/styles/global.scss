@@ -65,10 +65,12 @@ a {
 	text-transform: uppercase;
 }
 .hero-header {
-	padding: 64px 50px 64px;
+	padding: 114px 50px 114px;
 	margin: 50px;
 	max-width: 980px;
-	background-color: blanchedalmond;
+	background-image: url("../../static/assets/jose-morales-3k_FcShH0jY-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
 	border-radius: 9px;
 	border: 1px solid #eee;
 	box-shadow: 0 0 30px #d5d5d5;

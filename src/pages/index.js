@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import HeroHeader from "../components/heroHeader"
-import alongtheseams from "../../static/assets/alongtheseams.png"
 
 const IndexPage = ({
 	data: {
@@ -27,9 +26,7 @@ const IndexPage = ({
 			</Helmet>
 			<div
 				style={{ width: "100%", display: "flex", justifyContent: "center", marginBottom: "50px" }}
-			>
-				<img style={{ display: "block" }} src={alongtheseams} alt="along the seams logo" />
-			</div>
+			></div>
 			<HeroHeader />
 			<h2>Blog Posts &darr;</h2>
 			<div className="grids">{Posts}</div>
