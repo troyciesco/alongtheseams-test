@@ -23,17 +23,18 @@ export default ({ children }) => {
 					{/* <Link to="/">{data.site.siteMetadata.title}</Link> */}
 					<Link to="/">
 						{" "}
-						<img style={{ display: "block", height: '50px', width: 'auto' }} src={alongtheseams} alt="along the seams logo" />
+						<img
+							style={{ display: "block", height: "50px", width: "auto" }}
+							src={alongtheseams}
+							alt="along the seams logo"
+						/>
 					</Link>
 				</div>
 				<Navigation />
 			</header>
 			{children}
 			<footer className="site-footer">
-				<p>
-					&copy; 2020 Along the Seams &bull; Starter layout by{" "}
-					<a href="https://w3layouts.com">W3Layouts</a>
-				</p>
+				<p>&copy; 2020 Along the Seams</p>
 			</footer>
 		</div>
 	)
