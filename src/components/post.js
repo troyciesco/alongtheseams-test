@@ -19,7 +19,11 @@ const Post = ({ post }) => (
 	<Link to={post.frontmatter.path}>
 		<StyledPost as="article">
 			{!!post.frontmatter.thumbnail && (
-				<img src={post.frontmatter.thumbnail} style={{ height: "150px", borderRadius: "0.5rem" }} alt={post.frontmatter.title + "- Featured Shot"} />
+				<img
+					src={post.frontmatter.thumbnail}
+					style={{ height: "150px", borderRadius: "0.5rem" }}
+					alt={post.frontmatter.title + "- Featured Shot"}
+				/>
 			)}
 			<Test pl="sm">
 				<Heading fontSize="xs" as="h3">

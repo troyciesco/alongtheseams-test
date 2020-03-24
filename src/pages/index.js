@@ -67,14 +67,6 @@ const IndexPage = ({
 		.map(edge => <Post key={edge.node.id} post={edge.node} />)
 
 	return (
-		// <Layout>
-		// 	<div
-		// 		style={{ width: "100%", display: "flex", justifyContent: "center", marginBottom: "50px" }}
-		// 	></div>
-		// 	<HeroHeader />
-		// 	<h2>Blog Posts &darr;</h2>
-		// 	<div className="grids">{Posts}</div>
-		// </Layout>
 		<BlogLayout>
 			<Helmet>
 				<title>{site.siteMetadata.title}</title>
@@ -148,65 +140,12 @@ const IndexPage = ({
 			<Heading pad="lg" mt="lg">
 				Podcasts
 			</Heading>
-			{/* <PostsContainer>
-				<Post>
-					<Test pl="sm">
-						<Heading fontSize="xs" as="h3">
-							Episode 1
-						</Heading>
-						<Text shade="t2" fontSize="xs" pl="xs" pb="xs">
-							25 March 2020 &bull; ATS Team
-						</Text>
-						<Text fontSize="sm" pl="xs">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores!
-						</Text>
-					</Test>
-				</Post>
-				<Post>
-					<Test pl="sm">
-						<Heading fontSize="xs" as="h3">
-							Episode 2
-						</Heading>
-						<Text shade="t2" fontSize="xs" pl="xs" pb="xs">
-							25 March 2020 &bull; ATS Team
-						</Text>
-						<Text fontSize="sm" pl="xs">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores!
-						</Text>
-					</Test>
-				</Post>
-				<Post>
-					<Test pl="sm">
-						<Heading fontSize="xs" as="h3">
-							Episode 3
-						</Heading>
-						<Text shade="t2" fontSize="xs" pl="xs" pb="xs">
-							25 March 2020 &bull; ATS Team
-						</Text>
-						<Text fontSize="sm" pl="xs">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores!
-						</Text>
-					</Test>
-				</Post>
-				<Post>
-					<Test pl="sm">
-						<Heading fontSize="xs" as="h3">
-							Episode 4
-						</Heading>
-						<Text shade="t2" fontSize="xs" pl="xs" pb="xs">
-							25 March 2020 &bull; ATS Team
-						</Text>
-						<Text fontSize="sm" pl="xs">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores!
-						</Text>
-					</Test>
-				</Post>
-			</PostsContainer> */}
 		</BlogLayout>
 	)
 }
 
 export default IndexPage
+
 export const pageQuery = graphql`
 	query indexPageQuery {
 		site {
