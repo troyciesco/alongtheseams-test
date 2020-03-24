@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /fillerama
+path: /purple-jerseys
 date: 2020-03-24T12:13:51.411Z
 title: Top Purple Jerseys
 tags: jerseys
