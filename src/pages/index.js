@@ -76,12 +76,12 @@ const IndexPage = ({
 				)}
 			</Helmet>
 			<BlogHero>
-				<Link to="/post">
+				<Link to="/baseball-religion">
 					<FeaturedPost elevation="3">
 						<FeaturedPostContentContainer>
 							<Box pl="hu" pb="md">
 								<Heading as="h3" color="neutral" shade="light">
-									This is the post title
+									Baseball as a Religious Experience
 								</Heading>
 								<Text shade="t2" fontSize="sm" pl="sm" pb="xs">
 									25 March 2020 &bull; Troy Ciesco
@@ -96,10 +96,10 @@ const IndexPage = ({
 					</FeaturedPost>
 				</Link>
 				<SidePosts>
-					<Link to="/post">
+					<Link to="/best-basestealers">
 						<Test>
 							<Heading fontSize="xs" as="h3">
-								Title
+								Best Basestealers
 							</Heading>
 							<Text shade="t2" fontSize="xs" pl="xs" pb="xs">
 								25 March 2020 &bull; Troy Ciesco
@@ -109,28 +109,32 @@ const IndexPage = ({
 							</Text>
 						</Test>
 					</Link>
-					<Test>
-						<Heading fontSize="xs" as="h3">
-							Title
-						</Heading>
-						<Text shade="t2" fontSize="xs" pl="xs" pb="xs">
-							25 March 2020 &bull; Troy Ciesco
-						</Text>
-						<Text fontSize="sm" pl="xs">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores!
-						</Text>
-					</Test>
-					<Test>
-						<Heading fontSize="xs" as="h3">
-							Title
-						</Heading>
-						<Text shade="t2" fontSize="xs" pl="xs" pb="xs">
-							25 March 2020 &bull; Troy Ciesco
-						</Text>
-						<Text fontSize="sm" pl="xs">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores!
-						</Text>
-					</Test>
+					<Link to="/purple-jerseys">
+						<Test>
+							<Heading fontSize="xs" as="h3">
+								Top Purple Jerseys
+							</Heading>
+							<Text shade="t2" fontSize="xs" pl="xs" pb="xs">
+								25 March 2020 &bull; Troy Ciesco
+							</Text>
+							<Text fontSize="sm" pl="xs">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores!
+							</Text>
+						</Test>
+					</Link>
+					<Link to="/fillerama">
+						<Test>
+							<Heading fontSize="xs" as="h3">
+								Fillerama
+							</Heading>
+							<Text shade="t2" fontSize="xs" pl="xs" pb="xs">
+								25 March 2020 &bull; Troy Ciesco
+							</Text>
+							<Text fontSize="sm" pl="xs">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores!
+							</Text>
+						</Test>
+					</Link>
 				</SidePosts>
 			</BlogHero>
 			<Heading pad="lg" mt="lg">

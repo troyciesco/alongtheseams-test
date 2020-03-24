@@ -20,9 +20,8 @@ export default ({ children }) => {
 		<div className="site-wrapper">
 			<header className="site-header">
 				<div className="site-title">
-					{/* <Link to="/">{data.site.siteMetadata.title}</Link> */}
 					<Link to="/">
-						{" "}
+						{data.site.siteMetadata.title}
 						<img
 							style={{ display: "block", height: "50px", width: "auto" }}
 							src={alongtheseams}

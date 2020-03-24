@@ -12,7 +12,6 @@ import {
 	HeaderNav,
 	StyledDivider
 } from "./Styles"
-import { Text } from "../../bruin"
 import logo from "../../../static/assets/alongtheseams.png"
 
 const PageContainer = styled.div`
@@ -42,7 +41,9 @@ const BlogLayout = ({ theme, children }) => {
 			<PageContainer>
 				<main>{children}</main>
 			</PageContainer>
-			{/* <Footer /> */}
+			<footer className="site-footer">
+				<p>&copy; 2020 Along the Seams</p>
+			</footer>
 		</ThemeProvider>
 	)
 }
